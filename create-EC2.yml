@@ -6,15 +6,15 @@
    tags: provisioning
 
    vars:
-     keypair: mySep22Key
+     keypair: anw_new
      instance_type: t2.micro
      image: ami-0ee23bfc74a881de5
      wait: yes
      group: webserver
      count: 1
-     region: us-east-1
+     region: ap-south-1
      security_group: ec2-security-group
-   
+
    tasks:
 
      - name: Create a security group
